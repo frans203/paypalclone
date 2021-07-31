@@ -44,11 +44,12 @@ if (window.innerWidth < 1000) {
       item.querySelector("i").style.transform = "rotate(0deg)";
     });
   });
+
+  window.addEventListener("resize", () => {
+    window.location.reload();
+  });
 }
 
-// window.addEventListener("resize", () => {
-//   window.location.reload();
-// });
 // END OF DROPDOWN
 
 // page-navigation
